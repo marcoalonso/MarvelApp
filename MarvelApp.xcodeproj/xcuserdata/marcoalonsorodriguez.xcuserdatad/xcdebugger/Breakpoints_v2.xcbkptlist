@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "863D7C25-F743-4B53-AEDD-35BA11F5C825"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64E3B9F0-A36F-48A3-8655-F31D6602DAAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelApp/CharacterListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchCharacters()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64E3B9F0-A36F-48A3-8655-F31D6602DAAF - a705f4ec1551a5d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;MarvelApp.Character&gt;, Swift.Error&gt;) -&gt; () in MarvelApp.CharacterListViewModel.fetchCharacters() -&gt; ()"
+                  moduleName = "MarvelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcoalonsorodriguez/Desktop/MarvelApp/MarvelApp/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "64E3B9F0-A36F-48A3-8655-F31D6602DAAF - be5084b798526ed0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;MarvelApp.Character&gt;, Swift.Error&gt;) -&gt; () in MarvelApp.CharacterListViewModel.fetchCharacters() -&gt; ()"
+                  moduleName = "MarvelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcoalonsorodriguez/Desktop/MarvelApp/MarvelApp/CharacterListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

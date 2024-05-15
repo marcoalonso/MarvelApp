@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1E3BC0362BF46836005ED9F5 /* MarvelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BC0352BF46836005ED9F5 /* MarvelAppApp.swift */; };
-		1E3BC0382BF46836005ED9F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BC0372BF46836005ED9F5 /* ContentView.swift */; };
+		1E3BC0382BF46836005ED9F5 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BC0372BF46836005ED9F5 /* CharacterListView.swift */; };
 		1E3BC03A2BF46838005ED9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3BC0392BF46838005ED9F5 /* Assets.xcassets */; };
 		1E3BC03D2BF46838005ED9F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3BC03C2BF46838005ED9F5 /* Preview Assets.xcassets */; };
+		1E3BC04A2BF4687A005ED9F5 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E3BC0492BF4687A005ED9F5 /* CryptoSwift */; };
+		1E3BC04C2BF46880005ED9F5 /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BC04B2BF46880005ED9F5 /* MarvelAPI.swift */; };
+		1E3BC04E2BF46915005ED9F5 /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BC04D2BF46915005ED9F5 /* CharacterListViewModel.swift */; };
+		1E3BC0502BF46955005ED9F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BC04F2BF46955005ED9F5 /* User.swift */; };
+		1E3BC0532BF47153005ED9F5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1E3BC0522BF47153005ED9F5 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E3BC0322BF46836005ED9F5 /* MarvelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3BC0352BF46836005ED9F5 /* MarvelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAppApp.swift; sourceTree = "<group>"; };
-		1E3BC0372BF46836005ED9F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E3BC0372BF46836005ED9F5 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
 		1E3BC0392BF46838005ED9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E3BC03C2BF46838005ED9F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E3BC04B2BF46880005ED9F5 /* MarvelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
+		1E3BC04D2BF46915005ED9F5 /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		1E3BC04F2BF46955005ED9F5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1E3BC0542BF47254005ED9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3BC0532BF47153005ED9F5 /* Kingfisher in Frameworks */,
+				1E3BC04A2BF4687A005ED9F5 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +62,14 @@
 		1E3BC0342BF46836005ED9F5 /* MarvelApp */ = {
 			isa = PBXGroup;
 			children = (
+				1E3BC0542BF47254005ED9F5 /* Info.plist */,
 				1E3BC0352BF46836005ED9F5 /* MarvelAppApp.swift */,
-				1E3BC0372BF46836005ED9F5 /* ContentView.swift */,
+				1E3BC0372BF46836005ED9F5 /* CharacterListView.swift */,
 				1E3BC0392BF46838005ED9F5 /* Assets.xcassets */,
 				1E3BC03B2BF46838005ED9F5 /* Preview Content */,
+				1E3BC04B2BF46880005ED9F5 /* MarvelAPI.swift */,
+				1E3BC04D2BF46915005ED9F5 /* CharacterListViewModel.swift */,
+				1E3BC04F2BF46955005ED9F5 /* User.swift */,
 			);
 			path = MarvelApp;
 			sourceTree = "<group>";
@@ -83,6 +98,10 @@
 			dependencies = (
 			);
 			name = MarvelApp;
+			packageProductDependencies = (
+				1E3BC0492BF4687A005ED9F5 /* CryptoSwift */,
+				1E3BC0522BF47153005ED9F5 /* Kingfisher */,
+			);
 			productName = MarvelApp;
 			productReference = 1E3BC0322BF46836005ED9F5 /* MarvelApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +130,10 @@
 				Base,
 			);
 			mainGroup = 1E3BC0292BF46836005ED9F5;
+			packageReferences = (
+				1E3BC0482BF4687A005ED9F5 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				1E3BC0512BF47153005ED9F5 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 1E3BC0332BF46836005ED9F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3BC0382BF46836005ED9F5 /* ContentView.swift in Sources */,
+				1E3BC04E2BF46915005ED9F5 /* CharacterListViewModel.swift in Sources */,
+				1E3BC04C2BF46880005ED9F5 /* MarvelAPI.swift in Sources */,
+				1E3BC0382BF46836005ED9F5 /* CharacterListView.swift in Sources */,
+				1E3BC0502BF46955005ED9F5 /* User.swift in Sources */,
 				1E3BC0362BF46836005ED9F5 /* MarvelAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +301,7 @@
 				DEVELOPMENT_TEAM = BKHZ525CR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +331,7 @@
 				DEVELOPMENT_TEAM = BKHZ525CR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +372,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E3BC0482BF4687A005ED9F5 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+		1E3BC0512BF47153005ED9F5 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E3BC0492BF4687A005ED9F5 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E3BC0482BF4687A005ED9F5 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		1E3BC0522BF47153005ED9F5 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E3BC0512BF47153005ED9F5 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E3BC02A2BF46836005ED9F5 /* Project object */;
 }
